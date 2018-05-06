@@ -2,12 +2,28 @@ print('hello second file')
 
 print('Class is \'Class name:')
 
-Class animal:
-    def height(self):
-        pass
+num = input("Gis ur Age:\n")
 
-    def weight(self):
-        pass
+try:
+    num = int(num)
+except ValueError:
+    num = input("Gis a number m8:\n")
+
+
+if type(int(num)) is not int:
+    num = int(num) + 1
+    print("U'll be " + str(num) + " next year")
+else:
+
+
+
+
+#Class animal:
+#    def height(self):
+#        pass
+
+#    def weight(self):
+#        pass
 
 #Editing in github
-def method
+#def method
