@@ -1,1 +1,13 @@
 print('hello second file')
+
+print('Class is \'Class name:')
+
+Class animal:
+    def height(self):
+        pass
+
+    def weight(self):
+        pass
+
+
+def method
