@@ -9,5 +9,5 @@ Class animal:
     def weight(self):
         pass
 
-
+#Editing in github
 def method
